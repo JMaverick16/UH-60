@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <default>
+    <menu n="10">
+      <label>UH 60 BlackHawk</label>
+      <enabled type="bool">true</enabled>
+      <item>
+        <label>Select Livery</label>
+        <binding>
+          <command>nasal</command>
+          <script>aircraft.livery.dialog.toggle()</script>
+        </binding>
+      </item>
+      <item>
+        <label>Reload 50 cal</label>
+        <binding>
+          <command>nasal</command>
+          <script>uh-60.reload_ammo()</script>
+        </binding>
+      </item>
+<!--
+      <item>
+        <label>Immatriculation</label>
+        <binding>
+          <command>nasal</command>
+          <script>s55.immat_dialog.toggle()</script>
+        </binding>
+      </item>
+-->
+    </menu>
+  </default>
+
+</PropertyList>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+<!--CAS Hydra Configuration.   -->
+
+ <!-- wings -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/wings.xml</path>
+    <offsets>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Left outer hydra -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/rocket.xml</path>
+    <offsets>
+      <x-m>-3.8</x-m>
+      <y-m>-2.95</y-m>
+      <z-m>-.85</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+  
+  
+  
+  
+   <!-- Left inner hydra -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/rocket.xml</path>
+    <offsets>
+      <x-m>-3.8</x-m>
+      <y-m>-2.08</y-m>
+      <z-m>-.85</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+  
+ 
+  <!-- right inner hydra -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/rocket.xml</path>
+    <offsets>
+      <x-m>-3.8</x-m>
+      <y-m>2.1</y-m>
+      <z-m>-.85</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+
+  
+  
+  
+   <!-- Right outer hydra -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/rocket.xml</path>
+    <offsets>
+      <x-m>-3.8</x-m>
+      <y-m>3</y-m>
+      <z-m>-.85</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+
+</PropertyList>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>panelup.ac</path>
+  
+  <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>50</max-m>
+    </animation>
+
+
+  <animation>
+    <object-name>panel1</object-name>
+    <object-name>panel2</object-name>
+    <object-name>panel3</object-name>
+    <object-name>panel4</object-name>
+    <object-name>panel5</object-name>
+    <object-name>panel6</object-name>
+  </animation>
+  
+  
+  <model>
+    <name>overhead</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/overhead.xml</path>
+    <offsets>
+      <x-m>-0.34</x-m>
+      <y-m>0.05</y-m>
+      <z-m>-0.106</z-m>
+	  <pitch-deg>75</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	
+  </model>
+
+</PropertyList>

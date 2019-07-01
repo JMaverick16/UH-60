@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>paneldown.ac</path>
+
+  <animation>
+    <object-name>panel1</object-name>
+  </animation>
+
+  <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>50</max-m>
+    </animation>
+
+  
+  <!-- Instrument 1
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr1.xml</path>
+    <offsets>
+      <x-m> -0.250 </x-m>
+      <y-m>  0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr1.xml</path>
+    <offsets>
+      <x-m> -0.250 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Instrument 2 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr2.xml</path>
+    <offsets>
+      <x-m> -0.108 </x-m>
+      <y-m>  0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr2.xml</path>
+    <offsets>
+      <x-m> -0.108 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 3 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr3.xml</path>
+    <offsets>
+      <x-m> -0.338 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 4
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr4.xml</path>
+    <offsets>
+      <x-m> -0.283 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Instrument 5 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr5.xml</path>
+    <offsets>
+      <x-m> -0.177 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 6 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr6.xml</path>
+    <offsets>
+      <x-m> -0.061 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 7 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr7.xml</path>
+    <offsets>
+      <x-m> 0.015 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 8
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr8.xml</path>
+    <offsets>
+      <x-m> 0.116 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Instrument 9 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr9.xml</path>
+    <offsets>
+      <x-m> 0.214 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 10 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr10.xml</path>
+    <offsets>
+      <x-m> -0.041 </x-m>
+      <y-m>  0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 11 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr11.xml</path>
+    <offsets>
+      <x-m> 0.029 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 12 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr12.xml</path>
+    <offsets>
+      <x-m> 0.090 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 13 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr13.xml</path>
+    <offsets>
+      <x-m> 0.153 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 14 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr14.xml</path>
+    <offsets>
+      <x-m> 0.200 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+-->
+  <!-- Instrument 15
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr15.xml</path>
+    <offsets>
+      <x-m> 0.229 </x-m>
+      <y-m> 0.146 </y-m>
+      <z-m> 0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Instrument 16 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr16.xml</path>
+    <offsets>
+      <x-m> -0.035 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 17 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr17.xml</path>
+    <offsets>
+      <x-m>  0.045 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 18 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr18.xml</path>
+    <offsets>
+      <x-m>  0.117 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+  <!-- Instrument 19
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr19.xml</path>
+    <offsets>
+      <x-m>  0.177 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Instrument 20 
+  <model>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/instr20.xml</path>
+    <offsets>
+      <x-m>  0.225 </x-m>
+      <y-m> -0.146 </y-m>
+      <z-m>  0.111 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>-->
+
+</PropertyList>

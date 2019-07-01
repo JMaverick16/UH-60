@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<!--
+    Usable with FlightGear
+    Property of Gerard Robin  (C)  2007
+    Copyright License:  CREATIVE COMMON  BY-NC-SA
+-->
+
+<PropertyList>
+
+ <path>asi-puma.ac</path>
+ 
+
+ 	<animation>
+		<type>noshadow</type>
+		<object-name>ASI</object-name>
+	</animation>
+
+
+	<animation include="Instrument-Light4.xml">
+		<object-name>Aiguille</object-name>
+	</animation>
+
+	<animation include="Instrument-Light3.xml">
+		<object-name>Cadran</object-name>
+	</animation>
+
+
+	<animation>
+		<type>rotate</type>
+		<object-name>Aiguille</object-name>
+		<property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0</dep>
+			</entry>
+			<entry>
+				<ind>50</ind>
+				<dep>80</dep>
+			</entry>
+			<entry>
+				<ind>200</ind>
+				<dep>320</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x-m>0.00</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+			</axis>
+	</animation>
+
+</PropertyList>

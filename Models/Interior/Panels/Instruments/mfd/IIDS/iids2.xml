@@ -1,0 +1,60 @@
+<PropertyList>
+
+        <path>eng2.ac</path>
+		
+	<animation>
+<type>material</type>
+<object-name>screen6</object-name>
+<emission>
+<factor-prop>controls/lighting/landing-lights</factor-prop>
+<red>   0.3 </red>
+<green> 0.3 </green>
+<blue>  0.3 </blue>
+</emission>
+</animation>		
+<!-- text -->	
+	
+	<animation>
+  <type>material</type>
+  <object-name>fuel</object-name>
+ 
+	
+ 
+  <ambient>
+    <red>0.5</red>
+    <green>0.5</green>
+    <blue>0.8</blue>
+  </ambient>
+  <diffuse>
+    <red>0.3</red>
+    <green>0.3</green>
+    <blue>0.3</blue>
+  </diffuse>
+  <emission>
+    <red>0.5</red>
+    <green>0.5</green>
+    <blue>0.8</blue>
+  </emission> 
+ </animation>
+ 
+ 
+ <text>
+  <name>fuel</name>
+  <font>lcd.txf</font>
+  <character-size type="double">0.006</character-size>
+  <offsets>
+   <x-m>0.005</x-m>
+   <y-m>-0.013</y-m>
+   <z-m>-0.035</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+   <type type="string">number-value</type>
+   <format type="string">%5.2f</format>
+  <truncate type="bool">true</truncate>
+  <property>consumables/fuel/total-fuel-lbs</property>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>		
+		
+
+</PropertyList>

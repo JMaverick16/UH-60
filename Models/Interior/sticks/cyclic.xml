@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+<!-- for UH-60 HD -->
+ 
+ 
+
+    
+    <path>uh60cyclic.ac</path>
+   
+  <animation>
+    <name>CyclicComplet</name>
+   <object-name>boot</object-name>
+    <object-name>shaft</object-name>
+    <object-name>triggerblock</object-name>
+    <object-name>trigger</object-name>
+    <object-name>grip_1</object-name>
+	<object-name>grip_2</object-name>
+	<object-name>grip_0</object-name>
+	<object-name>trigger2</object-name>
+	<object-name>button1</object-name>
+	<object-name>button2</object-name>
+	<object-name>button3</object-name>
+	<object-name>button4</object-name>
+	<object-name>hat</object-name>
+	
+	
+  </animation>
+  
+   <animation>
+    <type>rotate</type>
+    <object-name>CyclicComplet</object-name>
+    <property>controls/flight/elevator</property>
+    <factor> -5 </factor>
+    <offsets>
+      <x-m>  0.0 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> 0.03</z-m>
+    </offsets>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+ 
+ 
+  <animation>
+    <type>rotate</type>
+    <object-name>CyclicComplet</object-name>
+    <property>controls/flight/aileron</property>
+    <factor> -5 </factor>
+    <offsets>
+      <x-m>  0.0 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> 0.03</z-m>
+    </offsets>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

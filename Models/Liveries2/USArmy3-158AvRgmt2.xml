@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">USArmy3-158AvRgmt2</name>
+        <body>Liveries2/USArmy3-158AvRgmt2.jpg</body>
+
+        
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

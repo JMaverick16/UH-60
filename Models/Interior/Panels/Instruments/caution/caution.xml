@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+ <path>caution.ac</path>
+
+  <animation>
+    <type>material</type>
+    <object-name>caution1</object-name>
+    <object-name>caution2</object-name>
+    <object-name>caution3</object-name>
+    <object-name>caution4</object-name>
+    <emission>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  1 </blue>
+    </emission> 
+  </animation> 
+
+
+<!-- **********************EMERG ENGINE***************************** -->
+  <animation>
+    <type>select</type>
+    <object-name>caution1</object-name>
+  <condition>
+   <or>
+  <and>
+     <less-than>
+       <property>engines/engine/n2-pct</property>
+       <value>60</value>
+     </less-than>
+   </and>
+
+   <and>
+     <less-than>
+       <property>engines/engine/n1-pct</property>
+       <value>90</value>
+     </less-than>
+    </and>
+</or>
+   </condition>
+  </animation>
+
+
+
+
+<!-- *******************EMERG ROTOR********************** -->
+  <animation>
+    <type>select</type>
+    <object-name>caution2</object-name>
+  <condition>
+   <or>
+   <and>
+		
+     <property>consumables/fuel/tank/empty</property>
+    </and>
+
+   <and>
+		
+     <less-than>
+       <property>rotors/main/rpm</property>
+       <value>10</value>
+     </less-than>
+    </and>
+
+   <and>
+		
+     <less-than>
+       <property>rotors/tail/rpm</property>
+       <value>10</value>
+     </less-than>
+    </and>
+
+   </or>
+   </condition>
+  </animation>
+
+
+<!-- ********************MASTER CAUTION***************** -->
+  <animation>
+    <type>select</type>
+    <object-name>caution3</object-name>
+  <condition>
+   <or>
+   <and>
+		
+     <less-than>
+       <property>consumables/fuel/total-fuel-lbs</property>
+       <value>50</value>
+     </less-than>
+    </and>
+
+ 
+  
+
+   <and>
+		
+     <less-than>
+       <property>rotors/main/rpm</property>
+       <value>342</value>
+     </less-than>
+    </and>
+
+   <and>
+		
+     <greater-than>
+       <property>controls/rotor/brake</property>
+       <value>0.1</value>
+     </greater-than>
+    </and>
+
+   <and>
+		
+     <less-than>
+       <property>engines/engine[0]/rpm</property>
+       <value>1500</value>
+     </less-than>
+    </and>
+
+   <and>
+		
+     <greater-than>
+       <property>instrumentation/doors/crew/position-norm</property>
+       <value>0.05</value>
+     </greater-than>
+    </and>
+
+   </or>
+   </condition>
+  </animation>
+
+
+<!-- *******************AFCS READY********************** -->
+  <animation>
+    <type>select</type>
+    <object-name>caution4</object-name>
+  <condition>
+   <and>
+		
+		<greater-than>
+			<property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
+			<value>70</value>
+		</greater-than>
+		<greater-than>
+			<property>position/gear-agl-ft</property>
+			<value>300</value>
+		</greater-than>
+		<greater-than>
+			<property>rotors/gear/total-torque</property>
+			<value>500000</value>
+		</greater-than>
+    </and>
+   </condition>
+  </animation>
+
+</PropertyList>
+
+
+

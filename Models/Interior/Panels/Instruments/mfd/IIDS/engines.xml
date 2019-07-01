@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <name>IIDS</name>
+
+    <background>Aircraft/Generic/Panels/Textures/transparent-bg.rgb</background>
+    <w>512</w>
+    <h>382</h>
+
+    <instruments>
+
+        <instrument>
+            <name>iids-1</name>
+            <x>256</x>
+            <y>191</y>
+            <w-base>512</w-base>
+            <h-base>382</h-base>
+
+            <layers>
+
+                <layer>
+                    <texture>
+                        <path>eng.png</path>
+                        <x1>0.015</x1>
+                        <y1>0.254</y1>
+                        <x2>0.985</x2>
+                        <y2>0.990</y2>
+                    </texture>
+                <emissive>true</emissive>
+            </layer>
+        </layers>
+
+        </instrument>
+
+    </instruments>
+
+</PropertyList>

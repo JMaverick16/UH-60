@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+<!--casr Configuration  -->
+
+ <!-- minigun -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/minigun/minigun.xml</path>
+    <offsets>
+      <x-m>-4.8</x-m>
+      <y-m>1.6</y-m>
+      <z-m>-0.8</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>-45</heading-deg>
+    </offsets>
+  </model>
+  
+   <!-- minigun ammo -->
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/ammotin.xml</path>
+    <offsets>
+     <x-m>-4.2</x-m>
+      <y-m>0.9</y-m>
+      <z-m>-1.3</z-m>
+      <roll-deg>0</roll-deg>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+
+ 
+
+</PropertyList>

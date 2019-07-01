@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+<!-- for UH-60 HD -->
+ <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>50</max-m>
+    </animation>
+
+ 
+<!-- main dash --> 
+
+<model>
+    
+    <path>Aircraft/Instruments-3d/comp/comp.xml</path>
+    <offsets>
+      <x-m>-6.478 </x-m>
+      <y-m>0.262 </y-m>
+      <z-m>-0.353 </z-m>
+	  <pitch-deg>0</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.3</x-offset>
+    <y-offset>1.0</y-offset>
+    <z-offset>1.3</z-offset>
+   </animation>
+  </overlay>
+  </model>
+
+
+<model>
+    
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/caution/caution.xml</path>
+    <offsets>
+      <x-m>-6.615 </x-m>
+      <y-m>0.644 </y-m>
+      <z-m>-0.41 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>5</heading-deg>
+    </offsets>
+	
+  </model>
+  
+  <model>
+    
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/caution/caution.xml</path>
+    <offsets>
+      <x-m>-6.615 </x-m>
+      <y-m>-0.58 </y-m>
+      <z-m>-0.41 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>5</heading-deg>
+    </offsets>
+	
+  </model>
+
+ 
+<model>
+    <name>mfd1</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/mfd/RMFD/RMFD.xml</path>
+    <offsets>
+      <x-m>-6.71 </x-m>
+      <y-m>-0.6 </y-m>
+      <z-m>-0.57 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>5</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <name>mfd2</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/mfd/mfd2.xml</path>
+    <offsets>
+      <x-m>-6.71 </x-m>
+      <y-m>-0.33 </y-m>
+      <z-m>-0.565 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.75</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <name>mfd3</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/mfd/LMFD/LMFD.xml</path>
+    <offsets>
+      <x-m>-6.71 </x-m>
+      <y-m>0.35 </y-m>
+      <z-m>-0.57 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+  <model>
+    <name>mfd4</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/mfd/RMFD/RMFD.xml</path>
+    <offsets>
+      <x-m>-6.705 </x-m>
+      <y-m>0.65 </y-m>
+      <z-m>-0.57 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>-5</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+   <model>
+    <name>warn1</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/warn/warn.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>0.35 </y-m>
+      <z-m>-0.45 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<!--<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>-->
+  </model>
+  
+  <model>
+    <name>warn2</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/warn/warn.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>-0.35 </y-m>
+      <z-m>-0.45 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<!--<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.4</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>-->
+  </model>
+  
+   <model>
+    <name>AI</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/adi/adi.xml</path>
+    <offsets>
+      <x-m>-6.725 </x-m>
+      <y-m>-0.02 </y-m>
+      <z-m>-0.541 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.6</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <name>alt</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>-6.73 </x-m>
+      <y-m>0.09 </y-m>
+      <z-m>-0.455 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <name>torque</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/pnp/pnp.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>-0.13 </y-m>
+      <z-m>-0.455 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.7</y-offset>
+    <z-offset>0.68</z-offset>
+   </animation>
+  </overlay>
+  </model>
+   
+  <model>
+    <name>ASI</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>-6.73 </x-m>
+      <y-m>0.09 </y-m>
+      <z-m>-0.545 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.9</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+ 
+  
+   <model>
+    <name>percent fuel</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/fuel/fuelqty.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>0.09 </y-m>
+      <z-m>-0.622 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.2</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+    <model>
+    <name>ff2</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/fuel/fflow2.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>-0.13 </y-m>
+      <z-m>-0.622 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.2</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  <model>
+    <name>ff1</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/fuel/fflow1.xml</path>
+    <offsets>
+      <x-m>-6.733 </x-m>
+      <y-m>-0.02 </y-m>
+      <z-m>-0.622 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.2</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+   <model>
+    <name>compass</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/gyrocomp/gyro-compass.xml</path>
+    <offsets>
+      <x-m>-6.73 </x-m>
+      <y-m>-0.13 </y-m>
+      <z-m>-0.545</z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+	<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.85</y-offset>
+    <z-offset>0.82</z-offset>
+   </animation>
+  </overlay>
+  </model>
+  
+  
+  
+  <model>
+    <name>rotor rpm</name>
+    <path>Aircraft/UH-60/Models/Interior/Panels/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m>-6.732 </x-m>
+      <y-m>-0.02 </y-m>
+      <z-m>-0.455 </z-m>
+	  <pitch-deg>2</pitch-deg>
+<heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  
+  
+  <!-- Switches -->
+  
+  <model>
+		<name>Landing lights</name>
+    <path>Aircraft/wildcat/Models/Instruments/switches/landing-lights.xml</path>
+    <offsets> 
+     <x-m>-6.733 </x-m>
+      <y-m>0.15 </y-m>
+      <z-m>-0.682 </z-m>
+<pitch-deg>-10</pitch-deg>
+    </offsets>
+	</model>
+	
+	<animation>
+    <type>select</type>
+    <object-name>NoseGearLandinglight</object-name>
+    <object-name>Taxi-Light-Left</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/landing-lights-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+   <model>
+		<name>Nav Lights</name>
+    <path>Aircraft/wildcat/Models/Instruments/switches/nav.xml</path>
+    <offsets> 
+    <x-m>-6.733 </x-m>
+      <y-m>0.17 </y-m>
+      <z-m>-0.682 </z-m>
+<pitch-deg>-10</pitch-deg>
+
+    </offsets>
+	</model>
+	
+	<animation>
+    <type>select</type>
+    <object-name>GreenLightFlare</object-name>
+    <object-name>GreenLightRemb</object-name>
+	 <object-name>RedLightFlare</object-name>
+    <object-name>RedLightRemb</object-name>
+	<object-name>WhiteLightFlare</object-name>
+    <object-name>WhiteLightRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/nav-lights-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+  
+  
+    
+  
+  
+  
+   <model>
+		<name>beacon Lights</name>
+    <path>Aircraft/wildcat/Models/Instruments/switches/beacon.xml</path>
+    <offsets> 
+     <x-m>-6.733 </x-m>
+      <y-m>0.19 </y-m>
+      <z-m>-0.682 </z-m>
+<pitch-deg>-10</pitch-deg>
+
+    </offsets>
+	</model>
+	
+	<animation>
+    <type>select</type>
+     <object-name>BeaconFlare</object-name>
+    <object-name>BeaconRemb</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/beacon-switch</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+  </animation> 	
+ 
+ 
+
+</PropertyList>
+
