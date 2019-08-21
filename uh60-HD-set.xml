@@ -10,8 +10,8 @@ UH 60 simulation config.
 
   <sim include="Nasal/views2.xml">
 
-    <description>Sikorsky UH-60 BlackHawk ( HD version )</description>
-    <author>, Reagan Thomas, Maik Justus (FDM), StuartC (3d) + ( FDM ), Geed, ( sound ), Gary Brown ( liveries ), Hitoshi Uchida</author>
+    <description>Sikorsky MH-60 Black Hawk (HD version)</description>
+    <author>Reagan Thomas, Maik Justus (FDM), StuartC (3D + FDM), Geed (sound), Gary Brown (liveries), Hitoshi Uchida, J Maverick 16</author>
     <status>1.0</status>
     <license>GPL v2</license>
 
@@ -221,8 +221,8 @@ UH 60 simulation config.
     <weight n="5">
       <name>Configuration</name>
 	   <tank>2</tank>
-     <weight-lb>0</weight-lb>
-     <selected>Basic_Airframe</selected>
+     <weight-lb>1290</weight-lb>
+     <selected>CSAR_Extended</selected>
       <opt>
       <name>Basic_Airframe</name>
       <lbs>0</lbs>
@@ -315,10 +315,22 @@ UH 60 simulation config.
           </binding>
         </mod-up>
       </key>
-			<!--<key>
+			<key n="102">
         <name>f</name>
         <desc>Launch Flares</desc>
-      </key>-->
+        <binding>
+            <command>property-assign</command>
+            <property>/ai/submodels/submodel[0]/flare-release-cmd</property>
+              <value type="bool">true</value>
+        </binding>
+        <mod-up>
+        <binding>
+          <command>property-assign</command>
+          <property>/ai/submodels/submodel[0]/flare-release-cmd</property>
+            <value type="bool">false</value>
+          </binding>
+        </mod-up>
+      </key>
     </help>
 	
 	 <menubar include="Dialogs/uh-60-menu.xml"/>
@@ -336,6 +348,14 @@ UH 60 simulation config.
   </refuel>
  </systems>
   
+    <ai>
+        <submodels>
+            <submodel n="0">
+                <flare-release-cmd type="bool">false</flare-release-cmd>
+                <flare-release type="bool">false</flare-release>
+            </submodel>
+        </submodels>
+    </ai>
   
 	<environment>
     <turbulence>
@@ -588,7 +608,7 @@ UH 60 simulation config.
      
      <file>Aircraft/UH-60/Nasal/sound-helper.nas</file>
 	  <file>Aircraft/UH-60/Nasal/liveries2.nas</file>
-	
+	  <file>Aircraft/UH-60/Nasal/flares.nas</file>
 	  <file>Aircraft/UH-60/Nasal/bo105.nas</file>
 	   <file>Aircraft/UH-60/Nasal/vhf22.nas</file>
        <file>Aircraft/UH-60/Nasal/vir32.nas</file>
@@ -639,6 +659,10 @@ UH 60 simulation config.
       <cone2-deg type="double">0</cone2-deg>
       <cone3-deg type="double">0</cone3-deg>
       <cone4-deg type="double">0</cone4-deg>
+      <blade n="1">
+        <flap-deg type="double">0</flap-deg>        <!-- used for releasing flares -->
+        <position-deg type="double">0</position-deg><!-- used for releasing chaff  -->
+      </blade>
     </main>
   </rotors>
 

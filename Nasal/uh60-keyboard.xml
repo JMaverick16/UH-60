@@ -29,6 +29,23 @@
         		</mod-up>
       		</key>
 
+      <key n="102">
+        <name>f</name>
+        <desc>Launch Flares</desc>
+        <binding>
+            <command>property-assign</command>
+            <property>/ai/submodels/submodel[0]/flare-release-cmd</property>
+              <value type="bool">true</value>
+        </binding>
+        <mod-up>
+        <binding>
+          <command>property-assign</command>
+          <property>/ai/submodels/submodel[0]/flare-release-cmd</property>
+            <value type="bool">false</value>
+          </binding>
+        </mod-up>
+      </key>
+
 			<key n="105">
 				<name>i</name>
 				<desc>Toggle ignition switch</desc>
@@ -69,9 +86,7 @@
 						<property>/sim/view/dynamic/enabled</property>
 					</binding>
 				</mod-alt>
-			</key>
-
-			
+			</key>			
 
 			<key n="123">
 				<name>{</name>
@@ -114,7 +129,7 @@
       </binding>
      </mod-up>
     </key>
-   
+ 
 	
 	<key n="102">
     <name>f</name>
