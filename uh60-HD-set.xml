@@ -618,26 +618,28 @@ UH 60 simulation config.
       <file>Aircraft/UH-60/Nasal/damage.nas</file>
    </bo105>
    
-     <dmesw>
+    <dmesw>
         <file>Aircraft/UH-60/Nasal/dmesw.nas</file>
     </dmesw>
-                <nav_scripts>
-                        <file>Aircraft/UH-60/Nasal/nav_scripts.nas</file>
-                </nav_scripts>
+    <nav_scripts>
+      <file>Aircraft/UH-60/Nasal/nav_scripts.nas</file>
+    </nav_scripts>
 
    	<lights>
       <file>Aircraft//UH-60/Nasal/Lights.nas</file>
     </lights>
 
    	<aar>
-  		    <file>Aircraft/Generic/aar.nas</file>
-  		</aar>
+  		<file>Aircraft/Generic/aar.nas</file>
+  	</aar>
   
   <terrain-map>
- 
-<file>Aircraft/UH-60/Nasal/terrain-map.nas</file>
- 
-</terrain-map>
+    <file>Aircraft/UH-60/Nasal/terrain-map.nas</file>
+  </terrain-map>
+
+    <garmin196>
+      <file>Aircraft/UH-60/Models/Interior/Panels/Instruments/garmin196/garmin196.nas</file>
+    </garmin196>
 
  <dual_control_tools>
    <file>Aircraft/Generic/DualControl/dual-control-tools.nas</file>
