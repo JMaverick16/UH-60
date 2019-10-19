@@ -824,6 +824,45 @@
 			<max-dist>1000</max-dist>
 		</rotor>
 
+		<turbine>
+			<name>turbine-inside-LEFT</name>
+			<mode>looped</mode>
+			<path>Aircraft/UH-60/Sounds/UH-60M_Turbine_Loop_Inside-left.wav</path>
+			<condition>
+				<and>
+					<property>sim/current-view/internal</property>
+					<greater-than>
+						<property>rotors/main/rpm</property>
+						<value>50</value>
+					</greater-than>
+					<not>
+						<property>sim/crashed</property>
+					</not>
+				</and>
+			</condition>
+			<volume>
+				<factor>0.7</factor>
+			</volume>
+			<volume>
+				<property>rotors/main/rpm</property>
+				<factor>0.002269</factor>
+			</volume>
+			<pitch>
+				<property>rotors/main/rpm</property>
+				<factor>0.002269</factor>
+				<offset>0.0</offset>
+				<min>0</min>
+				<max>1</max>
+			</pitch>
+			<position>
+		        <x>0</x>
+		        <y>0</y>
+		        <z>-1</z>
+	        </position>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+		</turbine>
+
 		<rotor>
 			<name>rotor-inside-RIGHT</name>
 			<mode>looped</mode>
@@ -862,6 +901,45 @@
 			<reference-dist>100</reference-dist>
 			<max-dist>1000</max-dist>
 		</rotor>
+
+		<turbine>
+			<name>turbine-inside-RIGHT</name>
+			<mode>looped</mode>
+			<path>Aircraft/UH-60/Sounds/UH-60M_Turbine_Loop_Inside-right.wav</path>
+			<condition>
+				<and>
+					<property>sim/current-view/internal</property>
+					<greater-than>
+						<property>rotors/main/rpm</property>
+						<value>50</value>
+					</greater-than>
+					<not>
+						<property>sim/crashed</property>
+					</not>
+				</and>
+			</condition>
+			<volume>
+				<factor>0.7</factor>
+			</volume>
+			<volume>
+				<property>rotors/main/rpm</property>
+				<factor>0.002269</factor>
+			</volume>
+			<pitch>
+				<property>rotors/main/rpm</property>
+				<factor>0.002269</factor>
+				<offset>0.0</offset>
+				<min>0</min>
+				<max>1</max>
+			</pitch>
+			<position>
+		        <x>0</x>
+		        <y>0</y>
+		        <z>1</z>
+	        </position>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+		</turbine>
 
 		<engine-inside>
 			<name>engine-inside</name>
