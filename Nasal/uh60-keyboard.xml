@@ -46,6 +46,39 @@
         </mod-up>
       </key>
 
+      <key n="82">
+        <name>R</name>
+        <desc>Toggle Rescue</desc>
+        <binding>
+        <command>property-toggle</command>
+        <property>sim/multiplay/generic/float[12]</property>
+        </binding>
+      </key>
+      <key n="77">
+          <name>M</name>
+          <desc>Down Winch</desc>
+          <repeatable type="bool">true</repeatable>
+          <binding>
+          <command>property-adjust</command>
+          <property>sim/model/rescue-lift</property>
+          <step type="double">0.01</step>
+          <min>0.0</min>
+          <max>1</max>
+          </binding>
+        </key>
+        <key n="109">
+          <name>m</name>
+          <desc>Lift Winch</desc>
+          <repeatable type="bool">true</repeatable>
+          <binding>
+          <command>property-adjust</command>
+          <property>sim/model/rescue-lift</property>
+          <step type="double">-0.01</step>
+          <min>0.0</min>
+          <max>1</max>
+          </binding>
+        </key>
+
 			<key n="105">
 				<name>i</name>
 				<desc>Toggle ignition switch</desc>

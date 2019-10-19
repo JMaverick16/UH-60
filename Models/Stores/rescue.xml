@@ -82,5 +82,38 @@
       <heading-deg>0</heading-deg>
     </offsets>
   </model>
+ 
+ <!-- winch -->
+
+  <model>
+    <path>Aircraft/UH-60/Models/Stores/winch/winch.xml</path>
+    <offsets>
+      <x-m>-1.75</x-m>
+      <y-m>-0.25</y-m>
+      <z-m>-0.4</z-m>
+    </offsets>
+  </model>  
+  
+  
+   <model>
+      <name>Rescue-Op</name>
+      <path>Aircraft/UH-60/Models/Stores/Rescue/Rescue-Op.xml</path>
+      <offsets>
+        <x-m>-1.75</x-m>
+        <y-m>-0.25</y-m>
+        <z-m>-0.4</z-m>
+      </offsets>
+   </model>
+    
+<!-- crew -->
+  <model>
+    <name>Rescue-Man</name>
+    <path>Aircraft/UH-60/Models/Stores/Rescue/Rescue-Man.xml</path>
+    <offsets>
+      <x-m>-1.0</x-m>
+      <y-m>0.7</y-m>
+      <z-m>-0.35</z-m>
+    </offsets>
+  </model>
 
 </PropertyList>

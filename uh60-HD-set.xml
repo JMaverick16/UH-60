@@ -11,7 +11,7 @@ UH 60 simulation config.
   <sim include="Nasal/views2.xml">
 
     <description>Sikorsky MH-60 Black Hawk (HD version)</description>
-    <author>Reagan Thomas, Maik Justus (FDM), StuartC (3D + FDM), Geed (sound), Gary Brown (liveries), Hitoshi Uchida, J Maverick 16</author>
+    <author>Reagan Thomas, Maik Justus (FDM), StuartC (3D + FDM), Geed (sound), Gary Brown (liveries), Hitoshi Uchida, J Maverick 16 (OPRF convertion, liveries, other)</author>
     <status>1.0</status>
     <license>GPL v2</license>
 
@@ -77,6 +77,8 @@ UH 60 simulation config.
 
     <model>
       <path archive="y">Aircraft/UH-60/Models/uh60_Blackhawk.xml</path>
+      <rescue-lift>0.01</rescue-lift>
+      <rescue type="bool">false</rescue>
      	<bo105>
 				
 				<tail-angle-deg type="int" archive="y">0</tail-angle-deg>
@@ -177,7 +179,9 @@ UH 60 simulation config.
 	<float n="9" alias="/rotors/main/torque"/>	<!-- rotor particles -->
 		<!-- Payload over multiplayer -->
 		 <string alias="/sim/weight[5]/selected" n="1"/>
-       
+
+      <float n="12" alias="/sim/model/rescue"/><!--winchman over MP -->
+      <float n="13" alias="/sim/model/rescue-lift"/><!--winchman over MP -->
 	   
 		
 				
@@ -188,25 +192,24 @@ UH 60 simulation config.
 		
  <weight n="0">
       <name>Pilot</name>
-      <weight-lb>180</weight-lb>
+      <weight-lb>175</weight-lb>
       <max-lb>300</max-lb>
     </weight>
 
     <weight n="1">
       <name>Co-Pilot</name>
-      <weight-lb>180</weight-lb>
+      <weight-lb>175</weight-lb>
       <max-lb>300</max-lb>
     </weight>
 
     <weight n="2">
       <name>Right Crewchief</name>
-      <weight-lb>0</weight-lb>
+      <weight-lb>175</weight-lb>
       <max-lb>300</max-lb>
     </weight>
-
     <weight n="3">
       <name>Left Crewchief</name>
-      <weight-lb>0</weight-lb>
+      <weight-lb>175</weight-lb>
       <max-lb>300</max-lb>
     </weight>
 
@@ -262,7 +265,11 @@ UH 60 simulation config.
        <name>CAS_Multirole</name>
       <lbs>2000</lbs>
 	   </opt>
-	   
+	   <opt>
+       <name>Rescue</name>
+      <lbs>1660</lbs>
+      <gals>400</gals>
+     </opt>
     </weight>
 
 
@@ -303,7 +310,7 @@ UH 60 simulation config.
 			</key>
       <key n="101">
         <name>e</name>
-        <desc>Fire MG</desc>
+        <desc>Fire M134 7.62 Minigun</desc>
         <binding>
             <command>property-toggle</command>
             <property>controls/armament/trigger</property>
@@ -331,6 +338,38 @@ UH 60 simulation config.
           </binding>
         </mod-up>
       </key>
+      <key n="82">
+        <name>R</name>
+        <desc>Toggle Rescue</desc>
+        <binding>
+        <command>property-toggle</command>
+        <property>sim/multiplay/generic/float[12]</property>
+        </binding>
+      </key>
+      <key n="77">
+          <name>M</name>
+          <desc>Down Winch</desc>
+          <repeatable type="bool">true</repeatable>
+          <binding>
+          <command>property-adjust</command>
+          <property>sim/model/rescue-lift</property>
+          <step type="double">0.01</step>
+          <min>0.0</min>
+          <max>1</max>
+          </binding>
+        </key>
+        <key n="109">
+          <name>m</name>
+          <desc>Lift Winch</desc>
+          <repeatable type="bool">true</repeatable>
+          <binding>
+          <command>property-adjust</command>
+          <property>sim/model/rescue-lift</property>
+          <step type="double">-0.01</step>
+          <min>0.0</min>
+          <max>1</max>
+          </binding>
+          </key>
     </help>
 	
 	 <menubar include="Dialogs/uh-60-menu.xml"/>

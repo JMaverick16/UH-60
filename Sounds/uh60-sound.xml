@@ -304,7 +304,7 @@
 		<guns>
         	<name>guns</name>
         	<mode>looped</mode>
-        	<path>Aircraft/UH-60/Sounds/50cal.wav</path>
+        	<path>Sounds/gatling.wav</path>
         	<property>controls/armament/gun-trigger</property>
         	<volume>
             	<property>controls/armament/gun-trigger</property>
@@ -802,7 +802,7 @@
 				</and>
 			</condition>
 			<volume>
-				<factor>0.5</factor>
+				<factor>0.35</factor>
 			</volume>
 			<volume>
 				<property>rotors/main/rpm</property>
@@ -841,7 +841,7 @@
 				</and>
 			</condition>
 			<volume>
-				<factor>0.7</factor>
+				<factor>0.9</factor>
 			</volume>
 			<volume>
 				<property>rotors/main/rpm</property>
@@ -880,7 +880,7 @@
 				</and>
 			</condition>
 			<volume>
-				<factor>0.5</factor>
+				<factor>0.35</factor>
 			</volume>
 			<volume>
 				<property>rotors/main/rpm</property>
@@ -919,7 +919,7 @@
 				</and>
 			</condition>
 			<volume>
-				<factor>0.7</factor>
+				<factor>0.9</factor>
 			</volume>
 			<volume>
 				<property>rotors/main/rpm</property>

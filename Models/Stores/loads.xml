@@ -237,7 +237,31 @@
         </equals>
        
     </condition>
-  </animation>	
+  </animation>
+
+  <model>
+    <name>Rescue</name>
+    <path>Aircraft/UH-60/Models/Stores/rescue.xml</path>
+    <offsets>
+      <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+      <pitch-deg>0</pitch-deg>
+      <heading-deg>0</heading-deg>
+    </offsets>
+  </model>
+  <animation>
+    <type>select</type>
+    <object-name>Rescue</object-name>      
+    <condition>
+     
+        <equals>
+          <property>sim/multiplay/generic/string[1]</property>
+          <value>Rescue</value>
+        </equals>
+       
+    </condition>
+  </animation>  	
   
   
   <animation>
@@ -277,7 +301,10 @@
     <property>sim/multiplay/generic/string[1]</property>
     <value>Ferry</value>
    </equals>
-   
+   <equals>
+    <property>sim/multiplay/generic/string[1]</property>
+    <value>Rescue</value>
+   </equals>
   
    
    
