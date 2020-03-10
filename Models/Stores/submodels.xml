@@ -10,7 +10,7 @@
     <name>flares</name>
     <model>Aircraft/UH-60/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel[0]/flare-release</trigger>
-    <speed>10</speed>
+    <speed>50</speed>
     <repeat>true</repeat>
     <delay>0.2</delay>
     <count>50</count>
@@ -27,7 +27,7 @@
     <name>flares</name>
     <model>Aircraft/UH-60/Models/Stores/Countermeasures/flare.xml</model>
     <trigger>ai/submodels/submodel[0]/flare-release</trigger>
-    <speed>10</speed>
+    <speed>50</speed>
     <repeat>true</repeat>
     <delay>0.2</delay>
     <count>50</count>

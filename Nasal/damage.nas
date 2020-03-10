@@ -47,7 +47,9 @@ var cannon_types = {
     " GSh-23 hit":            0.065, # 23mm
     " M61A1 shell hit":       0.050, # 20mm
     " 50 BMG hit":            0.015, # 12.7mm (non-explosive)    
-    " 7.62 hit":              0.005, # 7.62mm (non-explosive)    
+    " 7.62 hit":              0.005, # 7.62mm (non-explosive)
+    " Hydra-70 hit":          0.250, # F-16
+    " SNEB hit":              0.250, # Jaguar    
 };    
 
 # lbs of warheads is explosive+fragmentation+fuse, so total warhead mass.
@@ -65,7 +67,9 @@ var warhead_lbs = {
     "AM39-Exocet":         364.00, 
     "AS-37-Martel":        330.00, 
     "AS30L":               529.00,
-    "CBU-87":              100.00,# bomblet warhead. Mix of armour piecing and HE. 100 due to need to be able to kill buk-m2.
+    "BL755":               100.00,# 800lb bomblet warhead. Mix of armour piecing and HE. 100 due to need to be able to kill buk-m2.    
+    "CBU-87":              100.00,# bomblet warhead. Mix of armour piecing and HE. 100 due to need to be able to kill buk-m2.    
+    "CBU-105":             100.00,# bomblet warhead. Mix of armour piecing and HE. 100 due to need to be able to kill buk-m2.    
     "Exocet":              364.00,
     "FAB-100":              92.59,
     "FAB-250":             202.85,
@@ -73,7 +77,7 @@ var warhead_lbs = {
     "GBU-12":              190.00,
     "GBU-24":              945.00,
     "GBU-31":              945.00,
-    "GBU-54":              192.00,
+    "GBU-54":              190.00,
     "GBU12":               190.00,
     "GBU16":               450.00,
     "HVAR":                  7.50,#P51
@@ -86,6 +90,7 @@ var warhead_lbs = {
     "M90":                  10.00,# bomblet warhead. x3 of real mass.
     "MK-82":               192.00,
     "MK-83":               445.00,
+    "MK-83HD":             445.00,
     "MK-84":               945.00,
     "OFAB-100":             92.59,
     "RB-04E":              661.00,
@@ -96,7 +101,7 @@ var warhead_lbs = {
     "RN-18T":             1200.00, #fictional, thermobaeric replacement for the RN-28 nuclear bomb
     "RS-2US":               28.66,
     "S-21":                245.00,
-    "S-24":                271.00, 
+    "S-24":                271.00,
     "SCALP":               992.00,
     "Sea Eagle":           505.00,
     "SeaEagle":            505.00,
@@ -120,6 +125,7 @@ var warhead_air_lbs = {
     "KN-06":               315.00,
     "M317":                145.00,
     "Magic-2":              27.00, 
+    "Majic":                26.45,
     "Matra MICA":           30.00,
     "Matra R550 Magic 2":   27.00,
     "MATRA-R530":           55.00,
@@ -147,12 +153,15 @@ var warhead_air_lbs = {
     "RB-74":                20.80,
     "RB-99":                44.00,
     "S530D":                66.00,
+    "S48N6":               330.00,# 48N6 from S-300pmu
 };
 
 var cluster = {
     # cluster munition list
     "M90": nil,
     "CBU-87": nil,
+    "CBU-105": nil,
+    "BL755": nil,
 };
 
 var fireMsgs = {
