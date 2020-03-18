@@ -11,7 +11,7 @@ UH 60 simulation config.
   <sim include="Nasal/views2.xml">
 
     <description>Sikorsky MH-60 Black Hawk (HD version)</description>
-    <author>Reagan Thomas, Maik Justus (FDM), StuartC (3D + FDM), Geed (sound), Gary Brown (liveries), Hitoshi Uchida, J Maverick 16 (OPRF convertion, liveries, other)</author>
+    <author>Reagan Thomas, Maik Justus (FDM), StuartC (3D + FDM), Geed (sound), Gary Brown (liveries), Hitoshi Uchida, J Maverick 16 (OPRF convertion, liveries, 3D, other)</author>
     <status>1.0</status>
     <license>GPL v2</license>
 
