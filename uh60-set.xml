@@ -169,6 +169,8 @@ UH 60 simulation config.
 			</generic>
 		</multiplay>		
 
+    <gui n="0" include="gui/f16-gui.xml"/>
+    
    <weight n="0">
       <name>Pilot</name>
       <weight-lb>180</weight-lb>
